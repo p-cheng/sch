@@ -2,6 +2,9 @@
 #define TEXT(x) #x
 #define f(x)  x()
 #define g()   TEXT(1+f(g))
+   
+
+
 
 
 int main()
